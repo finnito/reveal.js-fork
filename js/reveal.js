@@ -80,7 +80,7 @@
 			// number for the current slide. The function needs to return an array
 			// with one string [slideNumber] or three strings [n1,delimiter,n2].
 			// See #formatSlideNumber().
-			slideNumber: false,
+			slideNumber: true,
 
 			// Can be used to limit the contexts in which the slide number appears
 			// - "all":      Always show the slide number
@@ -158,7 +158,7 @@
 
 			// Flags whether to include the current fragment in the URL,
 			// so that reloading brings you to the same fragment position
-			fragmentInURL: false,
+			fragmentInURL: true,
 
 			// Flags if the presentation is running in an embedded mode,
 			// i.e. contained within a limited portion of the screen
@@ -229,7 +229,7 @@
 			focusBodyOnPageVisibilityChange: true,
 
 			// Transition style
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			transition: 'fade', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
 			transitionSpeed: 'default', // default/fast/slow
@@ -258,7 +258,7 @@
 			pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
 
 			// Prints each fragment on a separate slide
-			pdfSeparateFragments: true,
+			pdfSeparateFragments: false,
 
 			// Offset used to reduce the height of content within exported PDF pages.
 			// This exists to account for environment differences based on how you
@@ -268,7 +268,7 @@
 			pdfPageHeightOffset: -1,
 
 			// Number of slides away from the current that are visible
-			viewDistance: 3,
+			viewDistance: 4,
 
 			// The display mode that will be used to show slides
 			display: 'block',
