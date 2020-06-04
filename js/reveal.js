@@ -162,7 +162,7 @@
 
 			// Flags whether to include the current fragment in the URL,
 			// so that reloading brings you to the same fragment position
-			fragmentInURL: false,
+			fragmentInURL: true,
 
 			// Flags if the presentation is running in an embedded mode,
 			// i.e. contained within a limited portion of the screen
@@ -221,7 +221,7 @@
 			// Opens links in an iframe preview overlay
 			// Add `data-preview-link` and `data-preview-link="false"` to customise each link
 			// individually
-			previewLinks: false,
+			previewLinks: true,
 
 			// Exposes the reveal.js API through window.postMessage
 			postMessage: true,
@@ -262,14 +262,14 @@
 			pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
 
 			// Prints each fragment on a separate slide
-			pdfSeparateFragments: true,
+			pdfSeparateFragments: false,
 
 			// Offset used to reduce the height of content within exported PDF pages.
 			// This exists to account for environment differences based on how you
 			// print to PDF. CLI printing options, like phantomjs and wkpdf, can end
 			// on precisely the total height of the document whereas in-browser
 			// printing has to end one pixel before.
-			pdfPageHeightOffset: -1,
+			pdfPageHeightOffset: -2,
 
 			// Number of slides away from the current that are visible
 			viewDistance: 3,
@@ -287,10 +287,6 @@
 
 			// Time before the cursor is hidden (in ms)
 			hideCursorTime: 5000,
-
-			// Script dependencies to load
-			dependencies: []
-
 		},
 
 		// Flags if Reveal.initialize() has been called
