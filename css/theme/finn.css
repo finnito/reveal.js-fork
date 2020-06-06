@@ -50,6 +50,25 @@ body {
   height: auto;
 }
 
+.reveal .back-button {
+  background-color: #ecf0f1;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin: 1rem;
+  display: inline-block;
+  box-shadow: 0 0px 6px rgba(0,0,0,0.16), 0 0px 6px rgba(0,0,0,0.23);
+  position: absolute;
+  z-index: 99999999999999;
+  font-size: 1rem;
+  opacity: 0.5;
+  transition: all 150ms;
+}
+
+.reveal .back-button:hover,
+.reveal .back-button:active {
+  opacity: 1;
+}
+
 .reveal .slides section#title-slide { text-align: center; }
 
 /*********************************************
