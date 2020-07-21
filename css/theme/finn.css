@@ -58,6 +58,7 @@ body {
   display: inline-block;
   box-shadow: 0 0px 6px rgba(0,0,0,0.16), 0 0px 6px rgba(0,0,0,0.23);
   position: absolute;
+  bottom: 0;
   z-index: 99999999999999;
   font-size: 1rem;
   opacity: 0.5;
