@@ -70,6 +70,14 @@ body {
   opacity: 1;
 }
 
+.reveal #clock {
+  position: absolute;
+  margin: 1rem;
+  right: 0;
+  font-size: 2rem;
+  color: rgba(0,0,0,0.5);
+}
+
 .reveal .slides section#title-slide { text-align: center; }
 
 /*********************************************
