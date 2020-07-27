@@ -110,7 +110,7 @@
 			keyboardCondition: null,
 
 			// Enable the slide overview mode
-			overview: true,
+			overview: false,
 
 			// Disables the default reveal.js slide layout so that you can use
 			// custom CSS layout
