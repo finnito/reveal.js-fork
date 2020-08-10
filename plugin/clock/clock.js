@@ -1,7 +1,7 @@
 /**
  * Adds a clock to the slides.
  *
- * @author Fin LeSueur (https://finn.lesueur.nz)
+ * @author Finn LeSueur (https://finn.lesueur.nz)
  **/
 var AddClock = window.AddClock || (function(){
     function updateClock () {
