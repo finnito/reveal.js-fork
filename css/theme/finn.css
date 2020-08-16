@@ -80,26 +80,24 @@ body {
 
 .reveal .slides section#title-slide { text-align: center; }
 
-.reveal .slides section.col-2 {
+.reveal .slides section.c2 {
   display: flex !important;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 }
 
-.reveal .slides section.col-2 h1,
-.reveal .slides section.col-2 h2,
-.reveal .slides section.col-2 h3,
-.reveal .slides section.col-2 h4,
-.reveal .slides section.col-2 h5 {
+.reveal .slides section.c2 h1,
+.reveal .slides section.c2 h2,
+.reveal .slides section.c2 h3,
+.reveal .slides section.c2 h4,
+.reveal .slides section.c2 h5 {
   flex-basis: 100%;
 }
 
-.reveal .slides section.col-2 ul {
+.reveal .slides section.c2 ul,
+.reveal .slides section.c2 p {
   flex-basis: calc(50% - 1em);
-}
-
-.reveal .slides section.col-2 p {
-  flex-basis: 50%;
 }
 
 /*********************************************
