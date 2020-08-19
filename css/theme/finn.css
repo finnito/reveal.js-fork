@@ -96,7 +96,9 @@ body {
 }
 
 .reveal .slides section.c2 ul,
-.reveal .slides section.c2 p {
+.reveal .slides section.c2 p,
+.reveal .slides section.c2 div,
+.reveal .slides section.c2 figure {
   flex-basis: calc(50% - 1em);
 }
 
