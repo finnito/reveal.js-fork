@@ -337,7 +337,8 @@
 		// List of asynchronously loaded reveal.js dependencies
 		asyncDependencies = [
 			{ src: '/reveal.js/plugin/back/back.js', async: true },
-			{ src: '/reveal.js/plugin/clock/clock.js', async: true }
+			{ src: '/reveal.js/plugin/clock/clock.js', async: true },
+			{ src: '/reveal.js/plugin/equation-fragments/fragments.js', async: true }
 		],
 
 		// Features supported by the browser, see #checkCapabilities()
