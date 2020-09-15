@@ -54,11 +54,11 @@
 			maxScale: 2.0,
 
 			// Display presentation control arrows
-			controls: true,
+			controls: false,
 
 			// Help the user learn the controls by providing hints, for example by
 			// bouncing the down arrow when they first encounter a vertical slide
-			controlsTutorial: true,
+			controlsTutorial: false,
 
 			// Determines where controls appear, "edges" or "bottom-right"
 			controlsLayout: 'bottom-right',
@@ -68,7 +68,7 @@
 			controlsBackArrows: 'faded',
 
 			// Display a presentation progress bar
-			progress: true,
+			progress: false,
 
 			// Display the page number of the current slide
 			// - true:    Show slide number
@@ -84,7 +84,7 @@
 			// number for the current slide. The function should take in a slide
 			// object and return an array with one string [slideNumber] or
 			// three strings [n1,delimiter,n2]. See #formatSlideNumber().
-			slideNumber: true,
+			slideNumber: false,
 
 			// Can be used to limit the contexts in which the slide number appears
 			// - "all":      Always show the slide number
@@ -110,7 +110,7 @@
 			keyboardCondition: null,
 
 			// Enable the slide overview mode
-			overview: false,
+			overview: true,
 
 			// Disables the default reveal.js slide layout so that you can use
 			// custom CSS layout
@@ -176,7 +176,7 @@
 			pause: true,
 
 			// Flags if speaker notes should be visible to all viewers
-			showNotes: false,
+			showNotes: true,
 
 			// Global override for autolaying embedded media (video/audio/iframe)
 			// - null:   Media will only autoplay if data-autoplay is present
